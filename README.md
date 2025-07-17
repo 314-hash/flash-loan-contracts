@@ -16,3 +16,17 @@ This project is a basic **flash loan arbitrage bot** built with [Hardhat](https:
 
 ## 📂 Project Structure
 
+flash-loan-contracts/
+├── contracts/
+│ └── FlashLoanArbitrage.sol ← Main smart contract
+├── scripts/
+│ └── deploy.js ← Deployment script
+├── hardhat.config.js ← Hardhat config
+├── .env ← Secrets (not tracked by Git)
+├── .gitignore
+├── package.json
+└── README.md
+
+yaml
+Copy
+Edit
