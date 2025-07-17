@@ -1,0 +1,27 @@
+{
+  "name": "flash-loan-arbitrage",
+  "version": "1.0.0",
+  "description": "A smart contract project for Flash Loan Arbitrage using Hardhat",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network mumbai"
+  },
+  "keywords": [
+    "hardhat",
+    "solidity",
+    "flashloan",
+    "arbitrage",
+    "smart-contract"
+  ],
+  "author": "YourName",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.22.1"
+  },
+  "dependencies": {
+    "ethers": "^6.7.0"
+  }
+}
